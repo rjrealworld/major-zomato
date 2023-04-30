@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY /var/lib/jenkins/workspace/jenkins-todo /usr/share/nginx/html
