@@ -1,0 +1,66 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<h1>Fake Refund Detection</h1>
+<div class="container">
+    
+<div class="case1">
+    <form method="post" enctype="multipart/form-data">
+      <h3>Case 1: Wrong food item delivered</h3>
+      <label for="img1">Store Side Image</label>
+      <input type="file" name="img1" id="img1" />
+      <label for="img2">Delivered Item Image</label>
+      <input type="file" name="img2" id="img2" />
+      <label for="submit">Submit</label>
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </div>
+  
+  <div class="case2">
+    <form method="post" enctype="multipart/form-data">
+      <h3>Case 2: Expired grocery product</h3>
+      <input
+        type="text"
+        placeholder="Enter barcode"
+        class="inputField"
+        name="barcode"
+        required
+      />
+      <label for="img2">Barcode Image</label>
+      <input type="file" name="img2" id="img2" />
+      <label for="submit">Submit</label>
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </div>
+  
+  <div class="case3">
+    <form method="post" enctype="multipart/form-data">
+      <h3>Case 3: Adulterated Food</h3>
+      <input
+        type="text"
+        placeholder="Enter refund count"
+        class="inputField"
+        name="barcode"
+        required
+      />
+      <label for="img2">Food Image</label>
+      <input type="file" name="img2" id="img2" />
+      <label for="submit">Submit</label>
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </div>
+  
+  <div class="case4">
+    <form method="post" enctype="multipart/form-data">
+      <h3>Case 4: Item Missing</h3>
+      <label for="img1">Store Side Image</label>
+      <input type="file" name="img1" id="img1" />
+      <label for="img2">Bill Image</label>
+      <input type="file" name="img2" id="img2" />
+      <label for="submit">Submit</label>
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+  </div>
+  
+</div>
